@@ -40,9 +40,8 @@ No icons overload. No fancy colors. Just clean engineering.
 ## 📂 Repository Structure
 
 📁 resume
- ├── resume.tex        # Main LaTeX source
- └── README.md         # Project overview (this file)
-
+├── resume.tex # Main LaTeX source
+└── README.md # Project overview
 ---
 
 ## 🚀 How to Use / Customize
