@@ -1,0 +1,111 @@
+\documentclass[10pt,a4paper]{article} % slightly smaller font
+
+% ------------------ PACKAGES ------------------
+\usepackage[margin=0.65in]{geometry} % reduced margin to fit content
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+% ------------------ FORMATTING ------------------
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1.5pt} % reduced spacing
+
+\titleformat{\section}
+  {\large\bfseries\uppercase}
+  {}
+  {0pt}
+  {}
+  [\titlerule]
+
+\titlespacing*{\section}{0pt}{5pt}{3pt} % less space before/after section
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\setlist[itemize]{
+  leftmargin=1.1em,
+  itemsep=1pt,
+  topsep=1pt
+}
+
+% ------------------ DOCUMENT ------------------
+\begin{document}
+
+% ------------------ HEADER ------------------
+\begin{center}
+    {\Large \textbf{YASHWANTH G}}\\[-1pt]
+    \href{tel:+919789303121}{+91 9789303121} \,|\, 
+    \href{mailto:yashwanthg07@gmail.com}{yashwanthg07@gmail.com} \,|\,  
+    \href{https://www.linkedin.com/in/yashwanth-g20/}{LinkedIn} \,|\,  
+    \href{https://yashwanth-portfolio-site.vercel.app/}{Portfolio}
+\end{center}
+
+% ------------------ PROFILE ------------------
+\section{Profile}
+Highly motivated Software Engineering professional and ECE graduate with hands-on experience in the Fintech sector at M2P Fintech. Expertise in Java, SQL, and Python for developing and optimizing scalable backend applications, particularly within Access Control Servers (ACS). Proficient in cloud tools (GCP) and DevOps practices like API testing (Postman) and monitoring (Grafana).
+
+% ------------------ EDUCATION ------------------
+\section{Education}
+
+\textbf{Saveetha Engineering College} \hfill \textbf{Chennai, India}\\
+\textit{Bachelor of Engineering in Electronics \& Communication} \hfill 09/2019 -- 07/2023
+
+GPA: 7.80 / 10 
+
+% ------------------ SKILLS ------------------
+\section{Skills}
+
+\textbf{Programming Languages:} Java, Python, SQL, Embedded-C, MATLAB. \\
+\textbf{Tools \& Platforms:} Google Cloud Platform (GCP), Grafana, Postman, Git, Arduino IDE. \\
+\textbf{Core Concepts:} Object-Oriented Programming (OOP), Relational Databases, Agile/Scrum.
+
+% ------------------ EXPERIENCE ------------------
+\section{Experience}
+
+\textbf{M2P Fintech} \hfill \textbf{Chennai, India}\\
+\textit{Engineering Intern} \hfill 11/2024 -- 08/2025
+\begin{itemize}
+    \item Developed and maintained core security features within the Access Control Server (ACS) for high-traffic fintech platforms.
+    \item Engineered backend services using Java and SQL, ensuring data integrity and high-performance transaction processing.
+    \item Implemented proactive monitoring systems using Grafana to track critical metrics, improving system uptime visibility.
+    \item Conducted comprehensive API testing using Postman to resolve application bugs and improve system stability.
+    \item Collaborated in an Agile environment to deliver production-ready feature enhancements across cross-functional teams.
+\end{itemize}
+
+\textbf{VLOG Innovation Limited} \hfill \textbf{Chennai, India}\\
+\textit{Student Intern} \hfill 08/2022 -- 08/2022
+\begin{itemize}
+    \item Designed and coded an IoT prototype using Embedded-C and Arduino IDE for real-time sensor data acquisition.
+    \item Demonstrated skills in low-level programming and system integration for real-time data transmission protocols.
+\end{itemize}
+
+% ------------------ PROJECTS ------------------
+\section{Projects}
+
+\textbf{Vehicle Number Detection \& ROI Extraction} \hfill \textit{Python, OpenCV}\\
+Developed a robust Computer Vision system using Python to identify blurred and occluded license plates through ROI extraction and image enhancement logic, improving detection accuracy across varied lighting conditions.
+
+\textbf{IoT Gas Leakage Detector and Warning Generator} \hfill \textit{C++, Arduino, Cloud IoT}\\
+Engineered an IoT system for real-time gas leak detection using MQ-2 sensors. Automated SMS alerts and cloud data logging to improve response times and monitoring efficiency.
+
+% ------------------ ACHIEVEMENTS ------------------
+\section{Achievements \& Certifications}
+
+\begin{itemize}
+    \item \textbf{Published Research:} ``An Efficient and Robust Breast Cancer Detection in Mammogram Image using Improved Threshold Extraction Method'' — developed using MATLAB.
+    \item \textbf{Certifications:} 
+    \begin{itemize}
+        \item Python Programming – Coding Ninjas
+        \item Java Programming – Coding Ninjas
+        \item Cloud Development – Google Cloud Skills Boost
+        \item Google Cloud Essentials (GCP) – Google Cloud Skills Boost
+        \item Deploy to Kubernetes in Google Cloud – Google Cloud Skills Boost
+        \item Introduction to Generative AI – Google Cloud Skills Boost
+        \item Software \& Technology Job Simulations – Accenture, Deloitte, Goldman Sachs, J.P. Morgan
+    \end{itemize}
+    \item \textbf{Languages:} English (Proficient), Tamil (Native), Telugu (Native)
+\end{itemize}
+
+\end{document}
