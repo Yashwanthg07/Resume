@@ -42,6 +42,7 @@ No icons overload. No fancy colors. Just clean engineering.
 📁 resume
 ├── resume.tex # Main LaTeX source
 └── README.md # Project overview
+
 ---
 
 ## 🚀 How to Use / Customize
